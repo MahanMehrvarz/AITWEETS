@@ -162,7 +162,7 @@ def tweeter(hashtag):
 
 # for continous tweeting every 12 hours 
 schedule.clear()       
-schedule.every(59).hours.do(tweeter,'#Iranrevolution')
+schedule.every(59).hours.do(tweeter,'##anygivenhastag')
 
 while True:
     schedule.run_pending()
