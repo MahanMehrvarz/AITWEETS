@@ -154,16 +154,4 @@ def tweeter(hashtag):
             pass
 
 
-tweeter("#MahsaAmini")
-
-
-# schedule.clear()
-# schedule.every(5).minutes.do(tweeter,"#IranRevolution")
-
-# while True:
-
-#     # Checks whether a scheduled task
-#     # is pending to run or not
-#     schedule.run_pending()
-
-#     time.sleep(1)
+tweeter("#anygivenhashtag")
